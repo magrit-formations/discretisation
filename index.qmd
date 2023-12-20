@@ -28,7 +28,7 @@ editor_options:
 
 ## Définition
 
-> Une carte choroplèthe (du grec χῶρος : « zone/région » et πλῆθος : « grand nombre, multitude ») est une carte thématique où les régions sont colorées ou remplies d'un motif qui montre une mesure statistique, tels la densité de population ou le revenu par habitant. Ce type de carte facilite la comparaison d'une mesure statistique d'une région à l'autre ou montre la variabilité de celle-ci pour une région donnée.
+> Une carte choroplèthe (du grec χῶρος : « zone/région » et πλῆθος : « grand nombre, multitude ») est une carte thématique où les régions sont colorées ou remplies d'un motif qui montre une mesure statistique, telle la densité de population ou le revenu par habitant. Ce type de carte facilite la comparaison d'une mesure statistique d'une région à l'autre ou montre la variabilité de celle-ci pour une région donnée.
 
 ::: aside
 Carte choroplèthe [Wikipedia](https://fr.wikipedia.org/wiki/Carte_choropl%C3%A8the)
@@ -39,7 +39,7 @@ Carte choroplèthe [Wikipedia](https://fr.wikipedia.org/wiki/Carte_choropl%C3%A8
 -   L'information statistique contenue dans une table attributaire ne peut pas toujours être cartographiée directement.\
     Pour être intelligible, l'information doit souvent être convertie, modifiée, réduite au préalable.
 
--   Les données quantitatives relatives (taux, indices etc.) doivent *toujours* être synthétisées et subdivisées en classes de valeurs.\
+-   Les données quantitatives relatives (taux, indices, etc.) doivent *toujours* être synthétisées et subdivisées en classes de valeurs.\
     Cette procédure est souvent nommée **discrétisation**.
 
 # Les discrétisations {.inverse background-color="black"}
@@ -60,7 +60,7 @@ Carte choroplèthe [Wikipedia](https://fr.wikipedia.org/wiki/Carte_choropl%C3%A8
 
 -   Paramètres de position ou valeurs centrales (moyenne, médiane, mode)\
     Ces paramètres indiquent la valeur "typique" autour de laquelle les observations sont réparties.
--   Paramètres de dispersion (écart-type, intervalle inter quartiles...)\
+-   Paramètres de dispersion (écart-type, intervalle interquartile...)\
     Ces paramètres mesurent de l'écart des valeurs d'une distribution à une valeur centrale.
 
 ### 2. Analyser la forme de la distribution
@@ -68,13 +68,13 @@ Carte choroplèthe [Wikipedia](https://fr.wikipedia.org/wiki/Carte_choropl%C3%A8
 -   Histogrammes, boîtes à moustaches, essaim d'abeilles (*beeswarm*)
 -   ...
 
-### 3. Déterminer les intervales des classes
+### 3. Déterminer les intervalles des classes
 
--   Il exise de nombreuses méthodes.
+-   Il existe de nombreuses méthodes.
 
 # Les méthodes de discrétisations {.inverse background-color="black"}
 
-## Quelle dicrétisation choisir
+## Quelle discrétisation choisir
 
 ![](img/Figure-2.08.png)
 
